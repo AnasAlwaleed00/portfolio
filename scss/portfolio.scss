@@ -35,6 +35,9 @@
             color: $colorPrimary;
             font-size: 50px;
         }
+        h5 {
+            color: $colorPrimary;
+        }
     }
 
     .portfolio-top-right {
@@ -88,7 +91,7 @@
 
             button {
                 background-color: transparent;
-                border: 2px solid #FFFFFC;
+                border: 1px solid #FFFFFC;
                 color: #FFFFFC;
                 padding: 2px 12px;
                 font-size: 18px;

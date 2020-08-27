@@ -15,3 +15,5 @@
 -Improved UI
 -Added Social icons
 
+-Added Typo
+

@@ -34,3 +34,18 @@
         }
     }
 }
+.contact-social {
+    margin-top: 20px;
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .social-icon {
+        text-align: center;
+        img {
+            width: 70%;
+        }
+    }
+}
