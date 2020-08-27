@@ -81,3 +81,33 @@ body .header-radius {
   right: 0;
   z-index: -1;
 }
+
+.expertise {
+  margin-top: 100px;
+}
+
+.exp-top h2 {
+  color: #130F49;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.exp-item {
+  display: flex;
+  flex-direction: column;
+}
+.exp-item .title {
+  display: flex;
+  align-items: center;
+}
+.exp-item .exp-img {
+  background-color: rgba(149, 255, 244, 0.3);
+}
+.exp-item h3 {
+  margin-left: 20px;
+}
+.exp-item .exp-content {
+  margin-top: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,29 @@
+.expertise {
+    margin-top: 100px;
+}
+.exp-top {
+    h2 {
+        color: $colorPrimary;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+.exp-item {
+    display: flex;
+    flex-direction: column;
+    .title {
+        display: flex;
+        align-items: center;
+    }
+    .exp-img {
+        background-color: rgb(149, 255, 244, .3);
+    }
+    h3 {
+        margin-left: 20px;
+    }
+    .exp-content {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
