@@ -7,3 +7,5 @@
 -Added Portfolio
 
 -Added About
+
+-Added Clients
