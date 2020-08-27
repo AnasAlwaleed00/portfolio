@@ -395,7 +395,7 @@ html {
 }
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1240px;
   }
 }
 .row {
@@ -1575,9 +1575,6 @@ nav {
   justify-content: space-between;
   height: 75px;
   padding: 0 100px;
-  position: sticky;
-  top: 0px;
-  z-index: 3;
   box-shadow: 0 0 9px 1px #00000060;
 }
 
@@ -1740,4 +1737,7 @@ nav .cancel-icon {
     margin: 0 10px;
     font-size: 16px;
   }
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
 }
