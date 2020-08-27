@@ -135,3 +135,62 @@ body .header-radius {
 .portfolio-projects {
   margin-top: 80px;
 }
+
+.about {
+  margin-top: 120px;
+}
+
+.about-top p.nice {
+  color: #00000070;
+  letter-spacing: 1.26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about-top .about-details h2 {
+  color: #130F49;
+  font-size: 50px;
+}
+.about-top .about-details p {
+  color: #130F49;
+  margin-top: 20px;
+}
+
+.about-avatar {
+  display: flex;
+  align-items: center;
+}
+.about-avatar .avater-img {
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+}
+.about-avatar .avater-img img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: #cccccc70;
+}
+.about-avatar .avatar-text {
+  margin-left: 10px;
+}
+.about-avatar .avatar-text h4 {
+  color: #130F49;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.about-avatar .avatar-text p {
+  color: #00000090;
+}
+
+.about-skills .skill .row {
+  justify-content: space-between;
+}
+.about-skills .skill .skill-img {
+  background-color: #F2F3F5;
+  border-radius: 50%;
+  width: 80%;
+}
+.about-skills .skill img {
+  width: 100%;
+  padding: 20px;
+}
