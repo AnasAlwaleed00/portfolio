@@ -9,3 +9,5 @@
 -Added About
 
 -Added Clients
+
+-Added Contact

@@ -225,3 +225,39 @@ body .header-radius {
 .clients-imgs .client-img img {
   width: 100%;
 }
+
+.contact {
+  margin-top: 120px;
+}
+
+.contact-top {
+  background-color: #E9F9FF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.contact-top > p {
+  color: #B4B2C5;
+  letter-spacing: 1.6px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.contact-top h2 {
+  color: #130F49;
+  font-size: 40px;
+  font-weight: 700;
+}
+.contact-top .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.contact-top .email p {
+  margin-left: 10px;
+  letter-spacing: 1px;
+  color: #B4B2C5;
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.contact {
+    margin-top: 120px;
+    
+    
+}
+.contact-top {
+    background-color: #E9F9FF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    > p {
+        color: #B4B2C5;
+        letter-spacing: 1.6px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: $colorPrimary;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    text-align: center;
+    .email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        p {
+            margin-left: 10px;
+            letter-spacing: 1px;
+            color: #B4B2C5;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+}
