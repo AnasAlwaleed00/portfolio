@@ -1,0 +1,25 @@
+.portfolio {
+    margin-top: 120px;
+    img {
+        width: 100%;
+    }
+}
+.portfolio-top {
+    .row {
+        align-items: flex-end;
+    }
+    .portfolio-top-left {
+        p {
+            color: #00000070;
+            letter-spacing: 1.6px;
+            font-weight: 700;
+        }
+        h2 {
+            color: $colorPrimary;
+            font-size: 50px;
+        }
+    }
+}
+.portfolio-projects {
+    margin-top: 80px;
+}
