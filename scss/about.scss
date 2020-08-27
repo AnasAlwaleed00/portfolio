@@ -1,5 +1,18 @@
 .about {
-    margin-top: 120px;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    .portfolio-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 70%;
+        background-color: #9BF6FF40;
+        z-index: -1;
+        border-radius: 0px 20px 20px 0;
+    }
 }
 
 .about-top {
@@ -14,11 +27,13 @@
         h2 {
             color: $colorPrimary;
             font-size: 50px;
+            margin-bottom: 20px;
         }
 
         p {
             color: $colorPrimary;
             margin-top: 20px;
+            margin-bottom: 50px;
         }
     }
 }
@@ -26,6 +41,7 @@
 .about-avatar {
     display: flex;
     align-items: center;
+    margin-bottom: 60px;
 
     .avater-img {
         width: 65px;
@@ -61,9 +77,10 @@
             justify-content: space-between;
         }
         .skill-img {
-            background-color: #F2F3F5;
+            background-color: #ffffff90;
             border-radius: 50%;
-            width: 80%;
+            width: 70%;
+            box-shadow: 0px 0px 10px 4px #9BF6FF40;
         }
         img {
             width: 100%;

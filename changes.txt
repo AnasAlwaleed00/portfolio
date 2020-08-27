@@ -11,3 +11,7 @@
 -Added Clients
 
 -Added Contact
+
+-Improved UI
+-Added Social icons
+

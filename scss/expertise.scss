@@ -17,10 +17,15 @@
         align-items: center;
     }
     .exp-img {
-        background-color: rgb(149, 255, 244, .3);
+        
     }
     h3 {
         margin-left: 20px;
+        color: $colorPrimary;
+    }
+    p {
+        color: $colorText;
+        font-size: 18px;
     }
     .exp-content {
         margin-top: 10px;

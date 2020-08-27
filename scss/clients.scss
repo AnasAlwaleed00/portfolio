@@ -1,5 +1,6 @@
 .clients {
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 .clients-top {
     text-align: center;
@@ -19,13 +20,32 @@
 }
 .clients-imgs {
     margin-top: 60px;
+    
     .row {
         justify-content: space-between;
     }
     .client-img {
+        transition: box-shadow .4s;
+        &:hover {
+            box-shadow: 0px 10px 10px 2px #cccccc;
+        }
         img {
             width: 100%;
+            
         }
     }
 
+}
+.contact-social {
+    margin-top: 20px;
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-icon {
+        img {
+            width: 70%;
+        }
+    }
 }

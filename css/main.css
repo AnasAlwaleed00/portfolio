@@ -1568,51 +1568,38 @@ html {
   }
 }
 nav {
-  background: #ffffff;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 75px;
   padding: 0 100px;
-  box-shadow: 0 0 9px 1px #00000060;
 }
 
 nav .logo {
-  color: #5fc477;
+  color: #264653;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
 }
 
-nav .nav-items {
+nav .nav-items, .nav-logos {
   display: flex;
-  /* flex: 1; */
   padding: 0 0 0 40px;
 }
 
-nav .nav-items li {
+nav .nav-items li, .nav-logos li {
   list-style: none;
   padding: 10px 15px;
   border-radius: 8px;
   transition: background-color 0.7s;
 }
 
-nav .nav-items li a {
+nav .nav-items li a, .nav-logos li a {
   color: #00000099;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
-}
-
-nav form {
-  display: flex;
-  height: 40px;
-  padding: 2px;
-  background: #1e232b;
-  min-width: 18% !important;
-  border-radius: 2px;
-  border: 1px solid rgba(155, 155, 155, 0.2);
 }
 
 nav .menu-icon,
@@ -1721,7 +1708,7 @@ nav .search-icon.hide {
 }
 
 nav .logo.space {
-  color: #5fc477;
+  color: #2A9D8F;
   padding: 0 5px 0 0;
 }
 
