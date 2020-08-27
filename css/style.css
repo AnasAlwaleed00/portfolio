@@ -66,16 +66,17 @@
   position: relative;
 }
 .header-imgs img {
-  width: 100%;
+  width: 140%;
 }
 .header-imgs .img-dots {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.4;
 }
 .header-imgs .img-drop {
   background-color: #D9F4FF;
-  border-radius: 50% 0 50% 50%;
+  border-radius: 30% 0 30% 50%;
   overflow: hidden;
 }
 
@@ -84,7 +85,7 @@ body {
 }
 body .header-radius {
   position: absolute;
-  top: 0;
+  top: 75px;
   right: 0;
   z-index: -1;
 }
@@ -176,6 +177,9 @@ body .header-radius {
 }
 .portfolio-projects .proj .proj-img {
   position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .portfolio-projects .proj .proj-img:hover .proj-hover {
   visibility: visible;
@@ -266,15 +270,18 @@ body .header-radius {
   margin-bottom: 60px;
 }
 .about-avatar .avater-img {
-  width: 65px;
-  height: 65px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 .about-avatar .avater-img img {
   width: 100%;
-  border-radius: 50%;
-  border: 2px solid #ffffff;
-  background-color: #cccccc70;
+  background-size: 100px;
 }
 .about-avatar .avatar-text {
   margin-left: 10px;
@@ -390,4 +397,59 @@ body .header-radius {
 }
 .contact-social .social-icon img {
   width: 70%;
+}
+
+@media (max-width: 576px) {
+  .contact-top .email p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .header-left h2 {
+    font-size: 50px;
+  }
+
+  .expertise .exp-item {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-top .portfolio-top-right p {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .portfolio-projects .proj {
+    margin-bottom: 30px;
+  }
+
+  .about-skills .skill .skill-img {
+    text-align: center;
+    margin-right: 0;
+    width: 30%;
+    margin: 15px auto;
+  }
+
+  .clients-imgs .client-img {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .clients-imgs .client-img img {
+    width: 60%;
+  }
+}
+@media (max-width: 992px) {
+  .portfolio-projects .proj {
+    margin-bottom: 30px;
+  }
+
+  .about-skills .skill .skill-img {
+    margin-bottom: 50px;
+  }
+
+  .clients-imgs .row {
+    justify-content: space-evenly;
+  }
+  .clients-imgs .row .client-img {
+    margin-bottom: 50px;
+  }
 }

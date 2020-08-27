@@ -62,8 +62,12 @@
     margin-top: 80px;
 
     .proj {
+        
         .proj-img {
             position: relative;
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
             
             &:hover .proj-hover{
                 visibility: visible;

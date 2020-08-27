@@ -74,16 +74,17 @@
 .header-imgs {
     position: relative;
     img {
-        width: 100%;
+        width: 140%;
     }
     .img-dots {
         position: absolute;
         top: 0;
         left: 0;
+        opacity: .4;
     }
     .img-drop {
         background-color: #D9F4FF;
-        border-radius: 50% 0 50% 50%;
+        border-radius: 30% 0 30% 50%;
         overflow: hidden;
     }
 }
@@ -91,7 +92,7 @@ body {
     position: relative;
     .header-radius {
         position: absolute;
-        top: 0;
+        top: 75px;
         right: 0;
         z-index: -1;
         
