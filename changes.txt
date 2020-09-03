@@ -18,3 +18,5 @@
 -Added Typo
 
 -The website is now responsive
+
+-Added AOS

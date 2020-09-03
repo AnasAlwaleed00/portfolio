@@ -175,6 +175,9 @@ body .header-radius {
 .portfolio-projects {
   margin-top: 80px;
 }
+.portfolio-projects .proj {
+  margin-bottom: 20px;
+}
 .portfolio-projects .proj .proj-img {
   position: relative;
   width: 100%;
