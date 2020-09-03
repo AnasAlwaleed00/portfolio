@@ -77,7 +77,11 @@
 }
 
 .about-skills {
+    .row {
+        justify-content: space-around;
+    }
     .skill {
+        margin-bottom: 20px;
         .row {
             justify-content: space-between;
         }

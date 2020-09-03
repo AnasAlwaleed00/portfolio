@@ -298,6 +298,12 @@ body .header-radius {
   color: #00000090;
 }
 
+.about-skills .row {
+  justify-content: space-around;
+}
+.about-skills .skill {
+  margin-bottom: 20px;
+}
 .about-skills .skill .row {
   justify-content: space-between;
 }
